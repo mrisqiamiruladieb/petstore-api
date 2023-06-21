@@ -105,6 +105,16 @@ module.exports = {
         "status1": "available",
         "status2": "pending",
         "status3": "sold"
+      },
+
+      "CREATE_ORDER":
+      {
+        "id": 1,
+        "petId": 1,
+        "quantity": 2,
+        "shipDate": "2023-06-21T10:07:36.499Z",
+        "status": "placed",
+        "complete": true
       }
 
 }
