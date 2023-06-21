@@ -12,7 +12,12 @@
     "put user": "mocha test/api/putUser.js",
     "post create with array": "mocha test/api/postCreateWithArray.js",
     "post create with list": "mocha test/api/postCreateWithList.js",
-    "delete user": "mocha test/api/deleteUser.js"
+    "delete user": "mocha test/api/deleteUser.js",
+    "post pet": "mocha test/api/postPet.js",
+    "put pet": "mocha test/api/putPet.js",
+    "get pets by status": "mocha test/api/getPetsByStatus.js",
+    "get pet by id": "mocha test/api/getPetById.js",
+    "delete pet": "mocha test/api/deletePet.js"
   },
   "repository": {
     "type": "git",

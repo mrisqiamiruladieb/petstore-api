@@ -58,6 +58,53 @@ module.exports = {
             "phone": "089090990000",
             "userStatus": 1
           }
-      ]
+      ],
+
+      "ADD_PET_DATA":
+      {
+        "id": 1,
+        "category": {
+          "id": 1,
+          "name": "good"
+        },
+        "name": "doggie",
+        "photoUrls": [
+          "string"
+        ],
+        "tags": [
+          {
+            "id": 1,
+            "name": "nice"
+          }
+        ],
+        "status": "available"
+      },
+
+      "UPDATE_PET_DATA":
+      {
+        "id": 1,
+        "category": {
+          "id": 1,
+          "name": "good hair"
+        },
+        "name": "doggie yes",
+        "photoUrls": [
+          "string"
+        ],
+        "tags": [
+          {
+            "id": 1,
+            "name": "nice colour"
+          }
+        ],
+        "status": "available"
+      },
+
+      "PET_STATUS":
+      {
+        "status1": "available",
+        "status2": "pending",
+        "status3": "sold"
+      }
 
 }
