@@ -1,0 +1,27 @@
+{
+  "name": "petstore-api",
+  "version": "1.0.0",
+  "description": "mocha chai petstore api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrisqiamiruladieb/petstore-api.git"
+  },
+  "author": "adieb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrisqiamiruladieb/petstore-api/issues"
+  },
+  "homepage": "https://github.com/mrisqiamiruladieb/petstore-api#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5"
+  }
+}
