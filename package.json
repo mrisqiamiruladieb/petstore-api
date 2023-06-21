@@ -4,7 +4,15 @@
   "description": "mocha chai petstore api",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "post create user": "mocha test/api/postCreateUser.js",
+    "get login": "mocha test/api/getLogin.js",
+    "get logout": "mocha test/api/getLogout.js",
+    "get user": "mocha test/api/getUser.js",
+    "put user": "mocha test/api/putUser.js",
+    "post create with array": "mocha test/api/postCreateWithArray.js",
+    "post create with list": "mocha test/api/postCreateWithList.js",
+    "delete user": "mocha test/api/deleteUser.js"
   },
   "repository": {
     "type": "git",
