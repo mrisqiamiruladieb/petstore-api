@@ -1,0 +1,17 @@
+const { expect } = require('chai')
+const request = require('supertest')
+const baseUrl = require('../../env')
+
+describe('Get Request Inventory', () => {
+    const response = request(baseUrl())
+    .get('/store/inventory')
+
+    it('response status equal to 200', async () => {
+        expect((await response).status).to.equal(200)
+    })
+
+    it('response body to haveOwnProperty', async () => {
+        expect((await response).body).to.haveOwnProperty('available')
+    })
+    
+})
