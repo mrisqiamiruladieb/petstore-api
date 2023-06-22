@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-06-22T05:05:01.781Z",
+    "end": "2023-06-22T05:05:02.952Z",
+    "duration": 1171,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "399d88a6-d8c4-4924-bce4-a6b7da7f018c",
+      "title": "",
+      "fullFile": "C:\\Users\\ACER\\Documents\\petstore-api\\test\\api\\chaiAssertDeleteUser.js",
+      "file": "\\test\\api\\chaiAssertDeleteUser.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "34feb68a-adf9-4ce1-8a65-6e8359d46bdc",
+          "title": "Delete Request User",
+          "fullFile": "C:\\Users\\ACER\\Documents\\petstore-api\\test\\api\\chaiAssertDeleteUser.js",
+          "file": "\\test\\api\\chaiAssertDeleteUser.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "response status equal to 200",
+              "fullTitle": "Delete Request User response status equal to 200",
+              "timedOut": false,
+              "duration": 1158,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).status).to.equal(200)",
+              "err": {},
+              "uuid": "e02ba78e-0231-4756-92b9-3d646e40fc63",
+              "parentUUID": "34feb68a-adf9-4ce1-8a65-6e8359d46bdc",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "response body to haveOwnProperty",
+              "fullTitle": "Delete Request User response body to haveOwnProperty",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect((await response).body).to.haveOwnProperty('message')",
+              "err": {},
+              "uuid": "c76ca410-10f3-4550-9bd7-6dd413382b84",
+              "parentUUID": "34feb68a-adf9-4ce1-8a65-6e8359d46bdc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e02ba78e-0231-4756-92b9-3d646e40fc63",
+            "c76ca410-10f3-4550-9bd7-6dd413382b84"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1159,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
